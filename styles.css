@@ -36,13 +36,20 @@ body {
   align-items: center;
 }
 
-.header-logo {
-  height: 20px;
-  width: auto;
-}
-
 .site-header .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; /* nav left, logo right */
+}
+
+.nav {
+  display: flex;
+  gap: .9rem;
+  align-items: center;
+}
+
+.header-logo {
+  height: 45px;   /* adjust to taste */
+  width: auto;
+  display: block;
 }
