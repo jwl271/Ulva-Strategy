@@ -31,3 +31,34 @@ body {
 .contact input, .contact textarea { width: 100%; padding: .7rem .8rem; border-radius: 12px; border: 1px solid #2a3160; background: #0f1530; color: var(--text); }
 .contact button { justify-self: start; }
 .site-footer { border-top: 1px solid #22283f; background: rgba(11,16,32,.6); }
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo-block {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-logo {
+  height: 40px;
+  width: auto;
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.company-name {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.company-number {
+  font-size: 12px;
+  color: var(--muted);
+}
